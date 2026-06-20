@@ -64,10 +64,10 @@ const Index = () => {
             ✨ Магия и предсказания ✨
           </p>
           <h1 className="font-magic text-5xl md:text-7xl text-glow text-primary leading-tight">
-            Кот-волшебник<br />Рыжик
+            Кот-волшебник<br />ЧароКот
           </h1>
           <p className="text-muted-foreground mt-4 text-lg max-w-md mx-auto">
-            Загляни в волшебный шар Рыжика и узнай, что приготовила тебе судьба сегодня!
+            Загляни в волшебный шар ЧароКота и узнай, что приготовила тебе судьба сегодня!
           </p>
         </header>
 
@@ -83,7 +83,7 @@ const Index = () => {
           >
             <img
               src={CAT_IMG}
-              alt="Рыжий кот-волшебник Рыжик"
+              alt="Рыжий кот-волшебник ЧароКот"
               className={`w-full h-full object-cover transition-transform duration-500 ${
                 spinning ? 'scale-110 rotate-3 blur-[1px]' : 'group-hover:scale-105'
               }`}
@@ -138,7 +138,7 @@ const Index = () => {
         </div>
 
         <footer className="mt-12 text-muted-foreground/70 text-sm">
-          🐱 Рыжик · Школа волшебных предсказаний
+          🐱 ЧароКот · Школа волшебных предсказаний
         </footer>
       </div>
     </div>
